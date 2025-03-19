@@ -4,7 +4,7 @@ import { Avatar } from "./BlogCard"
 
 export const FullBlog=({blog}:{blog:Blog})=>{ 
     return <div>
-        <Appbar></Appbar>
+        <Appbar type="normal"></Appbar>
 <div className="flex justify-center">
 
     <div className="grid grid-cols-12 px-10 w-full  pt-200 max-w-screen-xl pt-12">
